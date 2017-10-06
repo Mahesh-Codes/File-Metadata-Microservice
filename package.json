@@ -1,0 +1,36 @@
+{
+	"name": "file-metadata-microservice-mahesh",
+		"dependencies": {
+		"express": "^4.14.0"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"engines": {
+		"node": "4.4.5"
+	},
+   "dependencies": {
+    "mongodb": "^2.2.30",
+    "mongoose": ">= 3.5.6",
+    "body-parser": "^1.18.2",
+    "cors": "^2.5.2",
+    "express": "^4.15.3",
+     "multer": "^1.3.0"
+  },
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Mahesh-Codes/File-Metadata-Microservice"
+	
+},
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "smalurl",
+    "FreeCodeCamp"
+  ]
+}
+
+
