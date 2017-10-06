@@ -1,0 +1,38 @@
+ <!DOCTYPE html>
+<html>
+<!-- export to github: ctl + shift + e -->
+   <head>
+      <title>url-shortener-microservice-mahesh Backend Challenges | Free Code Camp</title>
+      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+      <div style="text-align: left" class="container">
+         <h1>API Basejump: file-metadata-microservice</h1>
+         <h3>Free Code Camp Backend Challenge by Mahesh</h3>
+        
+        User Stories:
+      <ol>
+          <li>
+           I can submit a FormData object that includes a file upload.
+          </li>
+          <li>
+          When I visit that shortened URL, it will redirect me to my original link.
+          </li>
+        <li>
+         When I submit something, I will receive the file size in bytes within the JSON response
+        </li>
+         </ol>
+        </div>
+     <div>
+       <form action="/upload" method="post" enctype="multipart/form-data">
+         <label for= "selection">Please Select file to get size</label>
+         <input type="file" name="selection">
+         <input type="submit" name="submit">
+       </form>
+     </div>
+   </body>
+
+</html>
